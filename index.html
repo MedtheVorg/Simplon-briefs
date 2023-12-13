@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rock paper scissor game</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="interface welcome-interface">
+        <h1>Rock Paper Scissor Game !</h1>
+        <p>
+          the rules are simple , if you win more rounds than the computer you
+          Win !
+        </p>
+
+        <button class="start">Start</button>
+      </div>
+      <div class="interface game-interface">
+        <div class="score-board">
+          <p>Computer : <span class="computer-score">0</span></p>
+          <p>You : <span class="player-score">0</span></p>
+        </div>
+        <div class="valid-moves">
+          <div class="move rock" data-move-name="Rock" role="button">
+            <img
+              src="./assets/rock.png"
+              alt="image of hand in the shape of a rock"
+            />
+          </div>
+          <div class="move paper" data-move-name="Paper" role="button">
+            <img
+              src="./assets/paper.png"
+              alt="image of hand in the shape of a paper"
+            />
+          </div>
+          <div class="move scissor" data-move-name="Scissor" role="button">
+            <img
+              src="./assets/scsissor.png"
+              alt="image of hand in the shape of a scissor"
+            />
+          </div>
+        </div>
+        <div class="result hidden">
+          <div class="players-moves">
+            <p>You choose : <span class="player-move">Rock</span></p>
+            <p>Computer choose : <span class="computer-move">Scissor</span></p>
+          </div>
+          <div class="game-outcome">
+            <p class="content">Draw</p>
+          </div>
+        </div>
+
+        <div class="controllers">
+          <div class="restart">
+            <button>restart</button>
+          </div>
+          <div class="autoplay">
+            <button>autoPlay</button>
+          </div>
+        </div>
+
+        <!-- <div class="result-banner">
+          <div class="content show">
+            <div class="player1 show"></div>
+            <div class="against show">vs</div>
+            <div class="player2 show"></div>
+          </div>
+        </div> -->
+      </div>
+
+      <div class="interface gameover-interface">
+        <h2 class="draw">You Win</h2>
+        <table class="stats">
+          <tr>
+            <td>player</td>
+            <td>rounds won</td>
+            <td>outcome</td>
+          </tr>
+          <tr>
+            <td>Computer</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>You</td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+        <button class="play-again">play again</button>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

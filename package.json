@@ -1,0 +1,17 @@
+{
+  "name": "rock-paper-scissor-game",
+  "version": "1.0.0",
+  "description": "a rock paper scissor made with html,css and javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Html",
+    "Css",
+    "Javascript",
+    "Game"
+  ],
+  "author": "Mohamed Lemaallaoui",
+  "license": "MIT"
+}

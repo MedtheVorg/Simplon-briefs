@@ -63,8 +63,7 @@ function initApp() {
   welcomeInterface.classList.add("grow");
 }
 
-function playTheGame(playerMove) {
-  console.log("game started");
+function playTheGame(playerMove = playerMove || getRandomMove()) {
   gameStats.totalMatchesPlayed++;
   gameStats.computerMove = getRandomMove();
   gameStats.playerMove = playerMove;

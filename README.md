@@ -32,7 +32,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) instal
 $  git clone --branch brief_1 https://github.com/MedtheVorg/Simplon-briefs
 
 # Go into the repository
-$ cd rock-paper-scissor
+$ cd Simplon-briefs
 
 # navigate to index.html file
 $ ctrl + P

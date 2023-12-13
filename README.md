@@ -12,6 +12,11 @@
   <a href="#license">License</a>
 </p>
 
+## Live Preview
+
+> https://medthevorg.github.io/Simplon-briefs/
+> (depending on the current active brief this link may not work)
+
 ## Key Features
 
 - Responsive design

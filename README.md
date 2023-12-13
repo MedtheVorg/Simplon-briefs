@@ -21,6 +21,7 @@
 
 - Responsive design
 - Animations
+- Clean Code
 
 ## How To Use
 

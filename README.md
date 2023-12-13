@@ -8,5 +8,3 @@
 
 - design responsive et attrayant
 - des animations fluide et simple
-
-## live preview
